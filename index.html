@@ -1,102 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paulo Medeiros - Landing Page</title>
+    <title>Paulo Medeiros | Landing Page</title>
 
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        body{
+        body {
             font-family: Arial, Helvetica, sans-serif;
             background-color: #f4f6f9;
             color: #333;
             line-height: 1.6;
         }
 
-        header{
+        header {
             background: #1f3c88;
             color: white;
             text-align: center;
             padding: 30px 20px;
         }
 
-        header img{
+        header img {
             width: 180px;
             height: 180px;
             border-radius: 50%;
             object-fit: cover;
             border: 4px solid white;
-            margin: 15px 0;
+            margin: 20px 0;
         }
 
-        nav{
+        nav {
             margin-top: 20px;
         }
 
-        nav a{
+        nav a {
             color: white;
             text-decoration: none;
             margin: 0 15px;
             font-weight: bold;
         }
 
-        nav a:hover{
+        nav a:hover {
             color: #ffd700;
         }
 
-        main{
+        main {
             max-width: 1000px;
             margin: auto;
             padding: 20px;
         }
 
-        section, aside{
+        section,
+        aside {
             background: white;
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 10px;
-            box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
         }
 
-        h2{
+        h2 {
             color: #1f3c88;
             margin-bottom: 10px;
         }
 
-        ul{
-            margin-left: 20px;
-        }
-
-        article{
+        article {
             background: #eef2ff;
             padding: 15px;
+            margin-top: 15px;
             border-radius: 8px;
-            margin-top: 10px;
         }
 
-        footer{
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
             background: #1f3c88;
             color: white;
             text-align: center;
             padding: 20px;
         }
 
-        @media (max-width: 768px){
+        footer p {
+            margin: 5px 0;
+        }
 
-            header img{
-                width: 140px;
-                height: 140px;
-            }
+        .links a {
+            color: #1f3c88;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-            nav a{
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+
+            nav a {
                 display: block;
                 margin: 10px 0;
+            }
+
+            header img {
+                width: 140px;
+                height: 140px;
             }
         }
     </style>
@@ -104,99 +120,124 @@
 
 <body>
 
-<header>
-    <h1>Paulo Medeiros</h1>
+    <header>
 
-    <p>"Aprendendo, evoluindo e construindo soluções através da tecnologia."</p>
-
-    foto-paulo.jpg
-
-    <nav>
-        #sobreSobre Mim</a>
-        #habilidadesHabilidades</a>
-        #projetosProjetos</a>
-        #extrasExtras</a>
-    </nav>
-</header>
-
-<main>
-
-    <section id="sobre">
-        <h2>Sobre Mim</h2>
+        <h1>Paulo Medeiros</h1>
 
         <p>
-            Meu nome é Paulo Medeiros e atualmente estou desenvolvendo meus
-            conhecimentos na área de tecnologia. Tenho interesse em desenvolvimento
-            web, programação e soluções digitais. Busco constantemente aprender
-            novas ferramentas e aprimorar minhas habilidades para crescer
-            profissionalmente no setor de TI.
+            "Cada linha de código é um passo em direção à inovação e ao crescimento profissional."
         </p>
-    </section>
 
-    <section id="habilidades">
-        <h2>Habilidades</h2>
+        foto-paulo.jpg
 
-        <ul>
-            <li>HTML5 Semântico</li>
-            <li>CSS3</li>
-            <li>Responsividade para dispositivos móveis</li>
-            <li>Lógica de Programação</li>
-            <li>Git e GitHub</li>
-            <li>Aprendizagem contínua em Tecnologia</li>
-        </ul>
-    </section>
+        <nav>
+            #sobreSobre Mim</a>
+            #habilidadesHabilidades</a>
+            #projetosProjetos</a>
+            #extrasExtras</a>
+        </nav>
 
-    <section id="projetos">
-        <h2>Projetos</h2>
+    </header>
 
-        <article>
-            <h3>Site de Portfólio Pessoal</h3>
+    <main>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
 
             <p>
-                Projeto desenvolvido para apresentar informações profissionais,
-                habilidades e experiências em uma interface moderna e responsiva.
+                Meu nome é Paulo Medeiros e estou em constante desenvolvimento na área de
+                tecnologia. Tenho interesse em programação, desenvolvimento web e soluções
+                digitais que possam gerar impacto positivo na vida das pessoas. Busco
+                aprimorar minhas habilidades técnicas através de estudos, prática e projetos
+                que contribuam para meu crescimento profissional.
             </p>
-        </article>
+        </section>
 
-        <article>
-            <h3>Sistema de Controle Financeiro</h3>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+
+            <ul>
+                <li>HTML5 Semântico</li>
+                <li>CSS3</li>
+                <li>Design Responsivo</li>
+                <li>Lógica de Programação</li>
+                <li>Git e GitHub</li>
+                <li>Aprendizado contínuo em Tecnologia</li>
+            </ul>
+        </section>
+
+        <section id="projetos">
+
+            <h2>Projetos</h2>
+
+            <article>
+                <h3>Portfólio Profissional</h3>
+
+                <p>
+                    Projeto desenvolvido para reunir informações profissionais,
+                    habilidades, experiências e formas de contato em uma única
+                    página moderna e responsiva.
+                </p>
+            </article>
+
+            <article>
+                <h3>Sistema de Controle Financeiro</h3>
+
+                <p>
+                    Aplicação fictícia criada para auxiliar usuários no controle
+                    de receitas, despesas e metas financeiras através de uma
+                    interface simples e intuitiva.
+                </p>
+            </article>
+
+        </section>
+
+        <aside id="extras">
+
+            <h2>Informações Extras</h2>
 
             <p>
-                Projeto fictício criado para auxiliar usuários no gerenciamento
-                de despesas, receitas e metas financeiras através de uma
-                plataforma simples e intuitiva.
+                <strong>Hobbies:</strong> tecnologia, leitura, desenvolvimento pessoal,
+                aprendizado contínuo e exploração de novas ferramentas digitais.
             </p>
-        </article>
-    </section>
 
-    <aside id="extras">
-        <h2>Informações Extras</h2>
+            <br>
 
-        <p>
-            <strong>Hobbies:</strong> tecnologia, aprendizado contínuo,
-            leitura, entretenimento digital e desenvolvimento pessoal.
-        </p>
+            <div class="links">
 
-        <br>
+                <p><strong>Links Úteis:</strong></p>
 
-        <p>
-            <strong>Links Úteis:</strong>
-        </p>
+                <ul>
+                    <li>
+                        https://github.com/pvmedeiiros
+                            GitHub
+                        </a>
+                    </li>
 
-        <ul>
-            <li>https://github.com/GitHub</a></li>
-            <li>https://www.linkedin.com/LinkedIn</a></li>
-            <li>https://www.instagram.com/Instagram</a></li>
-        </ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/pvmedeiiros/" target="_blank">
+                            LinkedIn
+                        </a>
+                    </li>
 
-    </aside>
+                    <li>
+                        <a href="https://www.instagram.com/pvmedeiiros" target="_blank">
+                            Instagram
+                        </a>
+                    </li>
+                </ul>
 
-</main>
+            </div>
 
-<footer>
-    <p>E-mail: paulo25vinicius@gmail.com</p>
-    <p>© 2026 Paulo Medeiros. Todos os direitos reservados.</p>
-</footer>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p><strong>Contato:</strong> paulo25vinicius@gmail.com</p>
+        <p>© 2026 Paulo Medeiros. Todos os direitos reservados.</p>
+    </footer>
 
 </body>
+
 </html>
